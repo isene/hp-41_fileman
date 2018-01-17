@@ -1,6 +1,8 @@
 # hp-41_fileman
 ## HP-41: File management system
 
+**NOTE:** This program is part of the ISENE.ROM (https://github.com/isene/hp-41_isene-rom). The FOCAL listing can be found in the "src" folder of that project. Any updates and new version will be found there.
+
 Here are two menu-driven programs for easy file management on the HP-41. While "FILEMAN" handles creation, deletion, clearing and save/get to/from HEPAX memory, "FILE" handles the contents of ASCII files. These programs requires the LIBXM and LIBHPX libraries. The call to the function XMFILE? in the LIBXM requires the [ICEBOX rom](https://github.com/isene/hp-41_icebox), but these calls can safely be deleted from the FILEMAN and FILE programs as these are only included for the added convenience of showing the user what file is currently handled at the start of these programs.
 
 ### FILEMAN
