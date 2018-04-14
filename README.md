@@ -48,3 +48,6 @@ LBL b (.+a) |Append Alpha to current record
 LBL c (-1) |Jump one record backward
 LBL d (S) |Sort file alphabetically
 LBL e (><) |Trim file (i.e. run FLSZ- from LIBXM)
+
+## License
+This software is released into the Public Domain.
